@@ -1,0 +1,63 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	font: inherit;
+}
+article, aside, figure, figcaptin, footer, header, main, nave, section, summary {
+	display: block;
+}
+body {
+	font-family:"Times New Roman";
+	padding: 20px 20px 20px 20px;
+	background-color: #eeeeee;
+}
+article {
+	display: none;
+}
+.displayBlock {
+	display: block;
+}
+header h1 {
+	font-family: Helvetica, Arial, "Times New Roman", sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+	color: #7facaa;
+}
+header h1:hover {
+	color: blue;
+}
+h1, h2, h3, h4 {
+	margin: 10px 0px 10px 0px;
+}
+h2 {
+	font-size: 18pt;
+	font-variant: small-caps; 
+	font-weight: bold;	
+	border-bottom: 1px solid #000000;
+}
+h3 {
+	font-variant: small-caps; 
+	font-weight: bold;
+}
+h4 {
+	font-weight: bold;
+	font-style: italic;
+}
+p {
+	padding: 0 0 0 25px;
+}
+ul, ol {
+	padding: 0 0 0 50px;
+	margin: 10px 0px 10px 0px;
+}
+li:nth-child(odd) {
+	background-color: #eeeeff;
+}
+.block-content {
+	display: flex;
+    justify-content: space-between;
+    border: thin #336699 solid;
+}
